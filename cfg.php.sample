@@ -1,0 +1,11 @@
+<?php
+
+  $host_thermometer='10.0.0.1';
+  $host_emp='10.0.0.2';
+  $community_thermometer='public';
+  $community_emp='public';
+
+  if ( basename($_SERVER["PHP_SELF"]) != "index.php" )
+    header("Location: index.php",TRUE,301);
+
+?>

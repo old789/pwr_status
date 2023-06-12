@@ -1,0 +1,39 @@
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: #f4f6ff;
+}
+
+/* For mobile phones */
+
+.login, .error, .info{
+  text-align: center;
+  position: fixed;
+  width: 80%;
+  top: 10%;
+  left: 10%;
+}
+
+.formnew{
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 10%;
+}
+
+@media (min-width: 768px) {
+  /* For desktop */
+  .login {
+    top: 30%;
+    width: 20%;
+    left: 40%;
+  }
+
+  .formnew, .info, .error {
+    text-align: center;
+    position: fixed;
+    width: 56%;
+    top: 30%;
+    left: 22%
+  }
+}
